@@ -1,5 +1,4 @@
 const MessageDB = require('./config/database/databaseMessages')
-const UserDB = require('./config/database/databaseUsers')
 
 const express = require('express')
 const cors = require('cors')
