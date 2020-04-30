@@ -1,0 +1,12 @@
+.container-user {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.container-user h3 {
+  color: #fff;
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+}

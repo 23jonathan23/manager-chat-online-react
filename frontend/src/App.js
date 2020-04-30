@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 
 import './global.css'
-import Header from './components/Header/Header'
+import Header from './components/Header/Header.jsx'
+import User from './components/User/User.jsx'
 import ManagerMessages from './components/ManagerMessages/ManagerMessages.jsx'
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
         </div>
       </div>}
       {isLogin && <Header />}
+      {isLogin && <User username={username}/>}
       {isLogin && <ManagerMessages />}
     </>
   )
